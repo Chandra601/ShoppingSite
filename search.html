@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chandra Prakash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    <!-- fontawesome cdn For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg  py-2 fixed-top ">
+                <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcyI-f66I5szr0UPYvJRqxby_emZHAVMxVmQ&usqp=CAU"
+                        class="img img-fluid" width="50px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link list list1" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list list2" href="product.html"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list list3" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list list4" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link list list5" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html">
+                        <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- endbar -->
+    <!-- ==============search section ends here============== -->
+    <section class="search_section py-5 my-5" id="search_section">
+        <div class="container">
+            <div class="title text-center mb-5">
+                <h2><i class="far fa-file mr-2"></i>Search</h2>
+            </div>
+            <div class="row">
+                <!-- BEGIN RESULT -->
+                <div class="col-md-10 mx-auto">
+                    <!-- BEGIN SEARCH INPUT -->
+                    <div class="input-group">
+                        <input id="searchbar" onkeyup="search_product()" type="text" class="form-control" placeholder="search product">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><i class="fa
+    fa-search"></i></button>
+                        </span>
+                    </div>
+                    <!-- END SEARCH INPUT -->
+                    <small>Search Here</small>
+                    <!-- BEGIN TABLE RESULT -->
+                    <div class="table-responsive mt-3">
+                        <table class="table table-hover">
+                            <tbody class="border-bottom">
+                                <tr>
+                                    <td class="number text-center">1</td>
+                                    <td class="image"><img src="https://media.istockphoto.com/photos/close-up-collection-hangers-with-clothes-on-rack-in-wardrobe-picture-id1328521298?k=20&m=1328521298&s=170667a&w=0&h=V2ftUbl1KaRRssySDyA8Ps7dJV7JQFf9BoLpEQmvE54=" width="100px"
+                                            class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>Blue T-shirt</strong><br>This is the
+                                        product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                                <tr>
+                                    <td class="number text-center">2</td>
+                                    <td class="image"><img src="https://media.istockphoto.com/photos/rack-with-blank-tshirts-on-blue-background-close-up-picture-id1186301701?k=20&m=1186301701&s=170667a&w=0&h=Mu53QPtPVYQ-UOrRgirOul50BGoocVsGNn88vdA_OQg=" width="100px"
+                                            class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>NeckLess T-shirt</strong><br>This is the
+                                        product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                                <tr>
+                                    <td class="number text-center">3</td>
+                                    <td class="image"><img src="https://images.unsplash.com/photo-1523380677598-64d85d015339?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="100px"
+                                            class="img img-fluid" alt=""></td>
+                                    <td class="product"><strong>Crew-Neck Shirt</strong><br>This is the
+                                        product description.
+                                    </td>
+                                    <td class="rate text-right"><span><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa
+    fa-star-half-o"></i></span></td>
+                                    <td class="price text-right">₹350</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- END TABLE RESULT -->
+                </div>
+                <!-- END RESULT -->
+            </div>
+        </div>
+    </section>
+    <!-- ==============search section ends here============== -->
+    <script>
+        function search_product() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('product');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
